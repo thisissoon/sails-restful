@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+- '0.12'
+deploy:
+  provider: npm
+  email: dorks@thisissoon.com
+  api_key:
+    secure: FFuI4jlUWwh4Rl7tUKmpR20zEmZT1F4yBXwekFsnJLfO0r46f6mNsIyJlluaxImEnN6+n8AWKmDNAfD7avCXOfcz2NnlHSM2/JN+WVtGw/wQ167D4Zw79WSdBzg5DbfCtivQVxrS66oGnC129iI1MyIYFfM5milvI4w71dbL4KzKnuV9UJsrG1yaQZTVJ4gEp5EeMggs3R7khpuPvpbd2QxZUQsfWQ6yIsPtBgMWbexDuLHqZYr95W1levsPsQugKl4y9ai7pVw5Pt9uvJTYw29MwXLIIUK3pWfG6Zwu9Ctd1M9dyT0ecD8Q9g5wClZuOyKbeBf/9MF7MrM4/Z8Z3CXEOuTlfyqteAeJrAE33rLWbxfc420xomU0c+WCwElkc52U40Iai74XJmORB7E1Q/8sia9eXAt8TRtpHRlEiAVSqzrOGEwCObma46BFIhShLaXUUfNuc80wBIOVXE8HYx6qGqc1x435kzXQa56QjX/iNql1YqHwj2H6zM29UwjKLO6Kkb3zwKXT3X4YL3aqdMDWcdXV7GB6zUkYU/fSo2ijrGi8HA+GrSgNTN8vVHRhw3JaTC7P/vs0MgzOEVGShPYYpYlozQcTx/wkBw3jiNyrdtIfPMsnznpqzeVepcgLMXRnZ29azGrRk9ZTX/zxAGMQXEllCSxtjm4J3PYNlHg=
+  on:
+    tags: true
+    branch: master

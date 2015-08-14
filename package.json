@@ -10,6 +10,7 @@
     "type": "git",
     "url": "git://github.com/thisissoon/sails-restful.git"
   },
+  "bugs": "https://github.com/thisissoon/sails-restful/issues",
   "keywords": [
     "rest",
     "restful",
@@ -21,6 +22,9 @@
   ],
   "author": "SOON_",
   "license": "MIT",
+  "contributors": [
+    "James Warren (http://github.com/jamesjwarren)"
+  ],
   "readmeFilename": "README.md",
   "dependencies": {
     "restler": "^3.3.0"
